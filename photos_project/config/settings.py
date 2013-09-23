@@ -41,6 +41,8 @@ class Common(Configuration):
         # Useful template tags:
         # 'django.contrib.humanize',
 
+        # Django Suit needs to be loaded before default admin
+        'suit',
         # Admin
         'django.contrib.admin',
     )
