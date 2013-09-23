@@ -252,6 +252,8 @@ class Common(Configuration):
 
 class Local(Common):
 
+    DATABASES = values.DatabaseURLValue('postgres://localhost/photos')
+
     ########## INSTALLED_APPS
     INSTALLED_APPS = Common.INSTALLED_APPS
     ########## END INSTALLED_APPS

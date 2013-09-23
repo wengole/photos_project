@@ -37,3 +37,4 @@ django-avatar==2.0
 
 
 # Your custom requirements go here
+django-simpleimages==1.0.5
